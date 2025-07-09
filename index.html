@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Mukhiya | Survey Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <h1>Tea Survey Form</h1>  
+        <p>Please fill the form kindly.</p>
+        <form action="#" id="">
+            <fieldset>
+                <label>First Name: <input type="text" required></label>
+                <label>Last Name: <input type="text" required></label>
+                <label>Email: <input type="email" required></label>
+                <label>Age: <input type="number" min="10" max="120" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>What is the your favorite tea ?</legend>
+                <label for=""> <input type="checkbox" class="inline">Black tea </label>
+                <label for=""> <input type="checkbox" class="inline">Lemon tea </label>
+                <label for=""> <input type="checkbox" class="inline">Milk tea </label>
+                <label for=""> <input type="checkbox" class="inline">Herbal tea </label>
+                <label for=""> <input type="checkbox" class="inline">Green tea </label>
+                <label for=""> <input type="checkbox" class="inline">Others </label>
+            </fieldset>
+            <fieldset>
+                <legend>How often do you drink tea ?</legend>
+                <label for="tea-time"><input type="radio" name="tea-time" class="inline">Daily </label>
+                <label for="tea-time"><input type="radio" name="tea-time" class="inline">Weekly </label>
+                <label for="tea-time"><input type="radio" name="tea-time" class="inline">Monthly </label>  
+            </fieldset>
+            <fieldset>
+                <legend>Which flavors do you enjoy? (Select all that apply)</legend>
+                <select name="" id="">
+                    <option value="">Select one</option>
+                    <option value="one">Mint</option>
+                    <option value="">Lemon</option>
+                    <option value="">Masala</option>
+                    <option value="">Ginger</option>
+                    <option value="">Others</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <label for="">
+                    Additional comments:
+                    <textarea name="comment" id="comment" placeholder="leave your comments...." cols="30" rows="3"></textarea>
+                </label>
+            </fieldset>
+            <input type="submit" value="Submit" />
+        </form>
+    </main>   
+</body>
+</html>
